@@ -4,27 +4,6 @@
 <script src="https://apis.google.com/js/api.js"></script>
 <script src="https://cdn.jsdelivr.net/g/filesaver.js/1.3.3/FileSaver.min.js"></script>
 
-<script>
-  gapi.load("client:auth2", () => {
-    gapi.client
-      .init({
-        apiKey: "AIzaSyDmsMDCVxssRCTeKnTH0GuzKSi_s3SmOUA",
-        clientId:
-          "81606274024-17q4u5sof16un5tis6p9rlatgn8a2rbe.apps.googleusercontent.com",
-        discoveryDocs: [
-          "https://people.googleapis.com/$discovery/rest?version=v1",
-        ],
-        scope: "https://www.googleapis.com/auth/contacts",
-      })
-      .then(() => {
-        // API is ready
-      })
-      .catch((error) => {
-        console.error("Error initializing Google Contacts API", error);
-      });
-  });
-</script>
-
 {% endblock script %} {% block body %}
 <br /><br />
 
