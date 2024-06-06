@@ -1,1 +1,1 @@
-# Business-Card-Reader-using-CV-and-NLP-spaCy-
+# Business Card Reader using Card and NLP spaCy
